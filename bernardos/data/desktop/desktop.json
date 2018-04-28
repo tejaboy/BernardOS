@@ -1,0 +1,25 @@
+{
+    "Bernard Folder": {
+        "location": "data/desktop/Bernard Folder", "pos_x": 137, "pos_y": 22, "type": "Folder"
+    }
+    ,
+    "BNEdit (Notepad)": {
+        "location": "BNEdit", "pos_x": 23, "pos_y": 22, "type": "app"
+    }
+	,
+	 "SSWM 2016": {
+        "location": "data/desktop/SSWM 2016", "pos_x": 137, "pos_y": 142, "type": "Folder"
+    }
+	,
+	 "MyBB Plugins": {
+        "location": "data/desktop/MyBB Plugins", "pos_x": 246, "pos_y": 142, "type": "Folder"
+    }
+	,
+	 "Websites (Client-Side)": {
+        "location": "data/desktop/Websites (Client-Side)", "pos_x": 246, "pos_y": 22, "type": "Folder"
+    }
+	,
+	 "SwimmingFish": {
+        "location": "data/desktop/SwimmingFish", "pos_x": 356, "pos_y": 22, "type": "Folder"
+    }
+}

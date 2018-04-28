@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FAQs | UnrealMaker</title>
+<meta name="description" content="UnrealMaker, clearing our customers doubts is our top priority.">
+<meta name="keywords" content="UnrealMaker, game engine, free to use, game development, software, questions">
+<link href="css/style01.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/remodal.min.js"></script>
+<script src="js/contactform.js"></script>
+<link rel="stylesheet" href="css/remodal.css">
+<link rel="stylesheet" href="css/remodal-default-theme.css">
+<link rel="stylesheet" href="css/accordion.css">
+</head>
+
+<body>
+	<div id="top"></div>
+	<div id="container">
+        <div id="header">
+            <div id="logo">
+                <img src="images/logo/logo02_resized.png" alt="logo">
+            </div>
+            <div id="navigation">
+            	<nav>
+            	<ul>
+                	<!-- Due to float:right, the navigation need to be ordered in this new order -->
+                    <li><a href="faqs.html" class="active">FAQs</a></li>
+                    <li><a href="store.html">Asset Store</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="showcase.html">Showcase</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="slideshow">
+			<h1><mark>FAQs</mark></h1>
+			<h2><mark>Clearing our customers doubts is our top priority</mark></h2>
+        </div>
+        <div id="content">
+			<div id="content-padding">
+            	<button class="accordion"><h1>What is UnrealMaker?</h1></button>
+                <div class="panel">
+                <p>As explained at the <a href="index.html">Homepage</a>, UnrealMaker is a new modern game engine created by developers for developers. Come with a lot of features that only next-generation engine have.</p>
+                </div>
+                <button class="accordion"><h1>How much does it cost?</h1></button>
+                <div class="panel">
+                <p>Starting price is as low as zero. For more information, you can check the <a href="pricing.html">pricing page</a>.</p>
+                </div>
+                <button class="accordion"><h1>What's UnrealMaker TeamCloud?</h1></button>
+                <div class="panel">
+                <p>UnrealMaker TeamCloud is a cloud based application that allow UnrealMaker developers to collborate together to create bigger and better gamees quickly.</p>
+                </div>
+                <button class="accordion"><h1>Who created UnrealMaker?</h1></button>
+                <div class="panel">
+                <p>UnrealMaker is founded by Larry Stone and Sergey Burn in 2000 as a mini school project. Its quickly become a big project used to create small indie games and more recently AAA games. The company now has more than 100 strong developers maintaining the UnrealMaker and TeamCloud softwares.</p>
+                </div>
+                <button class="accordion"><h1>How can I contact UnrealMaker?</h1></button>
+                <div class="panel">
+                <p>You can contact us at <a href="mailto:general@unrealmaker.com">general@unrealmaker.com</a>. You can also contact us via +65 6456 6654.</p>
+                </div>
+                <button class="accordion"><h1>Where can I find UnrealMaker?</h1></button>
+                <div class="panel">
+                <p>UnrealMaker headquarter is located in Ang Mo Kio Singapore, inside ITE College Central.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6645215384683!2d103.85445721475402!3d1.3779598989950155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da16e84c362445%3A0x5c37585cc46eb695!2sITE+College+Central!5e0!3m2!1sen!2ssg!4v1463570289864" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+        <footer>
+			<p><a href="#top">[Back To Top]</a> | Copyright 2016, UnrealMaker | <a href="#contactUs">[Contact Us]</a></p>
+        </footer>
+        </div>
+    </div>
+    
+    <script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+	
+	for (i = 0; i < acc.length; i++) {
+		acc[i].onclick = function(){
+			this.classList.toggle("active");
+			this.nextElementSibling.classList.toggle("show");
+		}
+	}
+	</script>
+    
+	<div class="remodal" data-remodal-id="contactUs">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<h1>Contact Us</h1>
+		<p>Contact us for whatever reason you can think of! Ranging from pricing to dinners!</p>
+        <form name="contact" action="mailto:general@unrealmaker.com" onSubmit="return validateForm()" id="contactForm">
+            <input type="text" name="name" placeholder="Name" class="inputText" required><br><br>
+            <input type="email" name="email" placeholder="Email" class="inputText" required><br><br>
+            <textarea name="text" form="contactForm" placeholder="Your text here." required></textarea>
+			<input type="submit" value="Submit" class="submit">
+        </form>
+	</div>
+	
+	<div class="footnote">Purpose here is to showcase Bernard's Web Development Skills. Please note that most of the images here does not belong to him.</div>
+</body>
+</html>

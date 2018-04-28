@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Education | Bernard's Portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/pure.css">
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		
+		<script src="js/jquery-1.10.2.js"></script>
+		<script src="js/jquery-ui.js"></script>
+        
+        <!-- SweetAlert Function -->
+        <script src="js/sweetalert.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+        
+		<script>
+		$(function() {
+			var icons = {
+				header: "iconClosed",
+				activeHeader: "iconOpen"
+			};
+			$( "#accordion" ).accordion({
+				icons: icons, collapsible: true, active: false, heightStyle: "content"
+			});
+		});
+		</script>
+		
+		<!-- CSS conditional code -->
+		<!--[if lte IE 8]>
+			<link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+		<![endif]-->
+		<!--[if gt IE 8]><!-->
+			<link rel="stylesheet" href="css/layouts/side-menu.css">
+		<!--<![endif]-->
+	</head>
+	
+	<body>
+		<div id="layout">
+			<!-- Menu toggle -->
+			<a href="#menu" id="menuLink" class="menu-link">
+				<span></span>
+			</a>
+
+			<div id="menu">
+				<div class="pure-menu">
+					<a class="pure-menu-heading">Menu</a>
+
+					<ul class="pure-menu-list">
+						<li class="pure-menu-item"><a href="index.html" class="pure-menu-link"><i class="fa fa-home"></i> Home</a></li>
+						<li class="pure-menu-item"><a href="education.html" class="pure-menu-link"><i class="fa fa-book"></i> Education</a></li>
+						<li class="pure-menu-item"><a href="freelance.html" class="pure-menu-link"><i class="fa fa-pencil-square-o"></i> Freelance</a></li>
+                        <li class="pure-menu-item"><a href="gallery.html" class="pure-menu-link">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-picture-o"></i> Gallery</a></li>
+						<li class="pure-menu-item"><a href="gaming.html" class="pure-menu-link"><i class="fa fa-headphones"></i> Gaming</a></li>
+						<li class="pure-menu-item"><a href="bitcoin.html" class="pure-menu-link"><i class="fa fa-btc"></i> Support Bitcoin</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="main">
+				<div class="header">
+					<h1 class="animated lightSpeedIn">I'm a student!</h1>
+				</div>
+				
+				<br><div class='bannerTextCentralized'>
+                    <img class="pure-img-responsive animated fadeInLeft bannerBorder" src="images/banners/home.jpg" alt="Halogen Banner">
+                </div>
+
+				<div class="content">
+					<div id="accordion">
+						<h2 class="content-subhead">Pre School and Primary School</h2>
+                        	<div>
+								<img class="pure-img-responsive bannerTextCentralized" src="images/education/yunengprimaryschool.jpg" alt="Yu Neng Primary School Image">
+                                <p>I started my primary school education in mid 2006 at Yu Neng Primary School in Singapore. The reason being that my mother took me to Thailand after I "guarduated" from my pre-school. I studied in Thailand pre-school for about six months before my mother relised that Singapore education would benefit me more.</p>
+                                <p>During my time in Thailand, I entered two pre-schools. The first one being a village pre-school. I studied there for about a week. Due to the facellities they provided and manpower they had, my mother decided to transfer me to another pre-school that provided better services and care. I enjoyed my time there then my mother decided to move back to Singapore to give me a better education.</p>
+                                <p>When I came back to Singapore, I joined Yu Neng Primary School as a primary one student. Primary one year was a very struggling for me for e.g. I have not learnt Chinsese Han Yu Pin Yin which my classmates did learnt during their first few months. Luckily I have good classmates and teachers who helped me.</p>
+                            </div>
+                            
+                        <h2 class="content-subhead">Secondary School</h2>
+                        	<div>
+								<img class="pure-img-responsive bannerTextCentralized" src="images/education/bedokgreensecondaryschool.jpg" alt="Bedok Green Secondary School">
+                                <p>I applied for Bedok Green Secondary School (BGSS) and I managed to get into their Normal Technical stream. There, I met many kind, friendly, patience and supporting teachers. <mark>I managed to get top in computer application (CPA) for four consecutive years.</mark> The problem? I disliked most of my classmates as I think they are very noisy.</p>
+                                
+                                <p>However, all that have changed after the secondary two camp which I have bonded with my classmates and thus understand them more for three days. I started to accept my classmates and find them enjoyeable. I am thankful for that camp and enjoyed it very much which I have not thought before that the camp would have such a huge impact on my my classmates relationship with me(oh, that was also my first camp). Since then, I imporved my relationship with my classmates and stopped being addicted to gaming (which I was addicited to gaming since primary five) - and started working on making profitable websites on my free time. With good relationship with classmates and not an addicited gamer anymore, <mark>I managed to become the top student in my school (NT stream) for N Level.</mark></p>
+                            </div>
+                        
+                        <h2 class="content-subhead">Post Secondary School - ITE</h2>
+                        	<div>
+								<img class="pure-img-responsive bannerTextCentralized" src="images/education/ite2.jpg" alt="Institute of Technical Education Image">
+								<p>I applied for Nitic in Social Media and Web Development at ITE Central as I have a strong interest in developing web application. I do not mind taking an hour of bus ride from my house to my school as long as it is a course of my interest. I have friendly and kind (eh?) classmates and a very funny CA. I do not have anything to put on here as I just started out my ITE journey. So, why dont you head over to the Freelance page now?</p>
+                            </div>
+					</div>
+					<hr><div id="footerParagraph">Copyright 2016 Bernard's Portfolio<br><a href="mailto:lee_wei_kwan_bernard@connect.ite.edu.sg">[Contact Me]</a> <a href="#footerParagraph" onclick="swal({ html: true, title: 'Sweet! Thank You!', text: '1<ins>JTKing</ins>dNGmCfbP8HCbhenoxRQuy8tqZvs', imageUrl: 'images/bitcoin_qr.png' });">[Tip Me Bitcoin!]</a></div>
+				</div>
+			</div>
+		</div>
+		<script src="js/ui.js"></script> <!-- Menu needed this .js file to be responsive -->
+		
+		<div class="footnote">Purpose here is to showcase Bernard's Web Development Skills. Please note that most of the images here does not belong to him.</div>
+	</body>
+    <!-- Done by Bernard, CW1601C -->
+</html>

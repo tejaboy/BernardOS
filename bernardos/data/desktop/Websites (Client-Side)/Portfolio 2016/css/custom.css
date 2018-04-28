@@ -1,0 +1,74 @@
+/*
+Custom CSS
+Researched online and did some modifications. I understood these CSS below before I use them.
+*/
+
+/* Copied (and edited) from jQuery's css/jquery-ui.css */
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	min-height: 0; /* support: IE7 */
+}
+
+/* Got from Stackoverflow and a tutorial that teach how to make use of border to make "arrow". Modified to my meet needs. */
+.iconOpen {
+    top: 50%;
+	height: 0px;
+	width: 0px;
+	border: solid transparent;
+	border-top-color: #000000;
+	border-width: 10px;
+	margin-left: -35px;
+	margin-top: -5px;
+	position: absolute;
+}
+
+.ui-icon.iconClosed {
+	top: 50%;
+	height: 0px;
+	width: 0px;
+	border: solid transparent;
+	border-left-color: #000000;
+	border-width: 10px;
+	margin-left: -30px;
+	margin-top: -10px;
+	position: absolute;
+}
+
+.bannerBorder {
+	border: 1px solid #ffcc00;
+}
+
+.bannerBorder:hover {
+	box-shadow: 0px 0px 5px 1px #ffcc00;
+}
+
+.bannerTextCentralized {
+	display: block;
+	text-align: center;
+	margin: auto; /* Fixed center */
+}
+
+/* To make achivements stand out more in body */
+mark {
+	background-color: yellow; /* Even though "yellow" is the default colour for most moderen browsers, some other browsers do not use "yellow" as it default colour. This CSS rule is to make sure every browsers display yellow colour. */
+	font-style: italic;
+}
+
+#calculator {
+	font-style: italic;
+	border: 2px dotted;
+	padding: 10px;
+}
+
+#footerParagraph {
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.footnote
+{
+	position: fixed; bottom: 0; width: 100%; z-index: 100; background-color: rgba(0, 0, 0, 0.6); color: white; text-align: center; font-weight: bold; font-size: 11px;
+}

@@ -1,0 +1,51 @@
+<script>
+function price() {
+    
+    var rank = document.priceCalc.rank;
+    var posts = document.priceCalc.totalPosts;
+	
+	if (rank.value == 1) {
+		var rate = '0.000045';
+	}
+	else if (rank.value == "2") {
+		var rate = '0.00006';
+	}
+	else if (rank.value == "3") {
+		var rate = '0.00013';
+	}
+	else if (rank.value == "4") {
+		var rate = '0.0003';
+	}
+	else if (rank.value == "5") {
+		var rate = '0.0005';
+	}
+	else if (rank.value == "6") {
+		var rate = '0.0007';
+	}
+	else if (rank.value == "7") {
+		var rate = '0.0008';
+	}
+    
+    var totalAmount = rate * posts.value;
+    
+	document.getElementById("totalAmount").value = totalAmount;
+}
+</script>
+
+<form name="priceCalc">
+<div align="center">
+<select name="rank" onblur="price();">
+<option value="1">Newbie</option>
+<option value="2">Junior Member</option>
+<option value="3">Member</option>
+<option value="4">Full Member</option>
+<option value="5">Senior Member</option>
+<option value="6">Hero Member</option>
+<option value="7">Legendary</option>
+</select>
+
+<input type="number" name="totalPosts" oninput="price();">
+<input type="number" id="totalAmount" readonly="true">
+<br>
+</div>
+</form>

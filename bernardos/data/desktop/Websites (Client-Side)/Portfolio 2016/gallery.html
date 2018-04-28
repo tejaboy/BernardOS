@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Gallery | Bernard's Portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/pure.css">
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		
+		<script src="js/jquery-1.10.2.js"></script>
+		<script src="js/jquery-ui.js"></script>
+        
+        <!-- SweetAlert Function -->
+        <script src="js/sweetalert.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+		
+		<!-- FancyBox -->
+		<!-- Add mousewheel plugin (this is optional) -->
+		<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+		<!-- Add fancyBox -->
+		<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+		<!-- Optionally add helpers - button, thumbnail and/or media -->
+		<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+		<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+        
+		<script type="text/javascript">
+		$(function() {
+			var icons = {
+				header: "iconClosed",
+				activeHeader: "iconOpen"
+			};
+			$( "#accordion" ).accordion({
+				icons: icons, collapsible: true, active: false, heightStyle: "content"
+			});
+		});
+		
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+		</script>
+		
+		<!-- CSS conditional code -->
+		<!--[if lte IE 8]>
+			<link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+		<![endif]-->
+		<!--[if gt IE 8]><!-->
+			<link rel="stylesheet" href="css/layouts/side-menu.css">
+		<!--<![endif]-->
+	</head>
+	
+	<body>
+		<div id="layout">
+			<!-- Menu toggle -->
+			<a href="#menu" id="menuLink" class="menu-link">
+				<span></span>
+			</a>
+
+			<div id="menu">
+				<div class="pure-menu">
+					<a class="pure-menu-heading">Menu</a>
+
+					<ul class="pure-menu-list">
+						<li class="pure-menu-item"><a href="index.html" class="pure-menu-link"><i class="fa fa-home"></i> Home</a></li>
+						<li class="pure-menu-item"><a href="education.html" class="pure-menu-link"><i class="fa fa-book"></i> Education</a></li>
+						<li class="pure-menu-item"><a href="freelance.html" class="pure-menu-link"><i class="fa fa-pencil-square-o"></i> Freelance</a></li>
+                        <li class="pure-menu-item"><a href="gallery.html" class="pure-menu-link">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-picture-o"></i> Gallery</a></li>
+						<li class="pure-menu-item"><a href="gaming.html" class="pure-menu-link"><i class="fa fa-headphones"></i> Gaming</a></li>
+						<li class="pure-menu-item"><a href="bitcoin.html" class="pure-menu-link"><i class="fa fa-btc"></i> Support Bitcoin</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="main">
+				<div class="header">
+					<h1 class="animated lightSpeedIn">I'm a digital artist!</h1>
+				</div>
+				
+				<br><div class='bannerTextCentralized'>
+                    <img class="pure-img-responsive animated fadeInLeft bannerBorder" src="images/banners/gallery.png" alt="Halogen Banner">
+                </div>
+
+				<div class="content">
+					<div id="accordion">
+						<h2 class="content-subhead">Early Works</h2>
+                        	<div class="bannerTextCentralized">
+                            	<p>My first few digital signature made using GIMP. Just simple render pasted onto gardient background with some simple gardient effects.
+                            	<div class="pure-u-1-5">
+                                	<a class="fancybox" rel="early01" href="images/gallery/early/001.png"><img class="pure-img-responsive" src="images/gallery/early/001.png" alt="jacktheking/wasefd2's first personal signature"></a>
+                                </div>
+                                <div class="pure-u-1-5">
+                                    <a class="fancybox" rel="early01" href="images/gallery/early/002.png"><img class="pure-img-responsive" src="images/gallery/early/002.png" alt="jacktheking/wasefd2's first signature for contest"></a>
+                                </div>
+                                <div class="pure-u-1-5">
+                                    <a class="fancybox" rel="early01" href="images/gallery/early/003.png"><img class="pure-img-responsive" src="images/gallery/early/003.png" alt="jacktheking/wasefd2's first banner as comminsion"></a>
+                                </div>
+                                <div class="pure-u-1-5">
+                                    <a class="fancybox" rel="early01" href="images/gallery/early/004.png"><img class="pure-img-responsive" src="images/gallery/early/004.png" alt="Ranstorm's Signature"></a>
+                                </div>
+                                
+                                <div class="pure-u-1-5">
+                                	<a class="fancybox" rel="early01" href="images/gallery/early/005.png"><img class="pure-img-responsive" src="images/gallery/early/005.png" alt="Unbeatable Beatable's Clan Banner"></a>
+                                </div>
+                                <div class="pure-u-1-5">
+                                    <a class="fancybox" rel="early01" href="images/gallery/early/006.png"><img class="pure-img-responsive" src="images/gallery/early/006.png" alt="Xd God's Signature"></a>
+                                </div>
+                                <div class="pure-u-1-5">
+                                    <a class="fancybox" rel="early01" href="images/gallery/early/007.png"><img class="pure-img-responsive" src="images/gallery/early/007.png" alt="Legendzz's Singature"></a>
+                                </div>
+                                <div class="pure-u-1-5">
+                                    <a class="fancybox" rel="early01" href="images/gallery/early/008.png"><img class="pure-img-responsive" src="images/gallery/early/008.png" alt="Vortex Lord's Signature"></a>
+                                </div>
+                                
+                                <div class="pure-u-1-5">
+                                	<a class="fancybox" rel="early01" href="images/gallery/early/009.png"><img class="pure-img-responsive" src="images/gallery/early/009.png" alt="Caronation's Signature 1"></a>
+                                </div>
+                                <div class="pure-u-1-5">
+                                    <a class="fancybox" rel="early01" href="images/gallery/early/010.png"><img class="pure-img-responsive" src="images/gallery/early/010.png" alt="Caronation's Signature 2"></a>
+                                </div>
+                                <div class="pure-u-1-5">
+                                    <a class="fancybox" rel="early01" href="images/gallery/early/011.png"><img class="pure-img-responsive" src="images/gallery/early/011.png" alt="PokeRevo's Clan Banner"></a>
+                                </div>
+                                <div class="pure-u-1-5">
+                                    <a class="fancybox" rel="early01" href="images/gallery/early/012.png"><img class="pure-img-responsive" src="images/gallery/early/012.png" alt="Ashriya's Signature"></a>
+                                </div>
+								
+								<p>As I learnt fliter effects, I made better digital arts ...</p>
+								<div class="pure-u-1-5">
+                                	<a class="fancybox" rel="early02" href="images/gallery/early/021.png"><img class="pure-img-responsive" src="images/gallery/early/021.png" alt="Ninjakill's Signature 1"></a>
+                                </div>
+                                <div class="pure-u-1-5">
+                                    <a class="fancybox" rel="early02" href="images/gallery/early/022.png"><img class="pure-img-responsive" src="images/gallery/early/022.png" alt="DeadlyVortex's Signature 2"></a>
+                                </div>
+                                <div class="pure-u-1-5">
+                                    <a class="fancybox" rel="early02" href="images/gallery/early/023.gif"><img class="pure-img-responsive" src="images/gallery/early/023.gif" alt="jacktheking's gun girl signature"></a>
+                                </div>
+                                <div class="pure-u-1-5">
+                                    <a class="fancybox" rel="early02" href="images/gallery/early/024.gif"><img class="pure-img-responsive" src="images/gallery/early/024.gif" alt="Convete12's Signature"></a> <!-- The render may look pixelated but it is an effect - as seen from my old Photobucket gallery. -->
+                                </div>
+								
+								<p>After I learnt how to make use of paint brushes, I made even better digital graphics.</p>
+								<div class="pure-u-1-4">
+									<a class="fancybox" rel="early03" href="images/gallery/early/014.png"><img class="pure-img-responsive" src="images/gallery/early/014.png" alt="Unforgetable's signature"></a>
+								</div>
+								<div class="pure-u-1-4">
+									<a class="fancybox" rel="early03" href="images/gallery/early/015.png"><img class="pure-img-responsive" src="images/gallery/early/015.png" alt="MagmaChris's Signature"></a>
+								</div>
+								<div class="pure-u-1-4">
+                                	<a class="fancybox" rel="early03" href="images/gallery/early/013.png"><img class="pure-img-responsive" src="images/gallery/early/013.png" alt="jacktheking's CrossFire Forum Signature"></a>
+                                </div>
+								
+								<br>
+								<div class="pure-u-1-4">
+                                    <a class="fancybox" rel="early03" href="images/gallery/early/020.png"><img class="pure-img-responsive" src="images/gallery/early/020.png" alt="Earth Banner"></a>
+                                </div>
+                                <div class="pure-u-1-4">
+                                	<a class="fancybox" rel="early03" href="images/gallery/early/017.png"><img class="pure-img-responsive" src="images/gallery/early/017.png" alt="Pikachu Digital Art"></a>
+                                </div>
+                                <div class="pure-u-1-4">
+                                    <a class="fancybox" rel="early03" href="images/gallery/early/027.png"><img class="pure-img-responsive" src="images/gallery/early/027.png" alt="Free .XCF giveaway"></a>
+                                </div>
+								
+								<br>
+								<div class="pure-u-1-4">
+                                    <a class="fancybox" rel="early03" href="images/gallery/early/028.png"><img class="pure-img-responsive" src="images/gallery/early/028.png" alt="Boricha's Signature"></a>
+                                </div>
+								<div class="pure-u-1-4">
+                                    <a class="fancybox" rel="early03" href="images/gallery/early/025.png"><img class="pure-img-responsive" src="images/gallery/early/025.png" alt="Todadilemaster's Signature"></a>
+                                </div>
+								<div class="pure-u-1-4">
+                                    <a class="fancybox" rel="early03" href="images/gallery/early/026.png"><img class="pure-img-responsive" src="images/gallery/early/026.png" alt="Random Guy Signature"></a>
+                                </div>
+                            </div>
+                        <h2 class="content-subhead">During GFXMeetUp</h2>
+                        	<div class="bannerTextCentralized">
+                        		 <img class="pure-img-responsive" src="images/gallery/during/gfxmeetup_banner.png" alt="GFXMeetUp Banner">
+                                 <p>During my time with my members at GFXMeetUp, I received lots of feedback and recommendation. Thus improving my art senses more.</p>
+                                 <div class="pure-u-1-4">
+                                    <a class="fancybox" rel="during01" href="images/gallery/during/001.png"><img class="pure-img-responsive" src="images/gallery/during/001.png" alt="GFXVoid Signature Contest"></a>
+                                 </div>
+								 <div class="pure-u-1-4">
+                                    <a class="fancybox" rel="during01" href="images/gallery/during/002.png"><img class="pure-img-responsive" src="images/gallery/during/002.png" alt="jacktheking's Signature"></a>
+                                 </div>
+								 <div class="pure-u-1-4">
+                                    <a class="fancybox" rel="during01" href="images/gallery/during/003.png"><img class="pure-img-responsive" src="images/gallery/during/003.png" alt="Random Batman Digital Arts"></a>
+                                 </div>
+                                 
+                                 <br>
+                                 <div class="pure-u-1-4">
+                                    <a class="fancybox" rel="during01" href="images/gallery/during/004.png"><img class="pure-img-responsive" src="images/gallery/during/004.png" alt="Clan Chatmoderator Userbar"></a>
+                                 </div>
+								 <div class="pure-u-1-4">
+                                    <a class="fancybox" rel="during01" href="images/gallery/during/005.png"><img class="pure-img-responsive" src="images/gallery/during/005.png" alt="DillonModzFTW Signature"></a>
+                                 </div>
+								 <div class="pure-u-1-4">
+                                    <a class="fancybox" rel="during01" href="images/gallery/during/006.png"><img class="pure-img-responsive" src="images/gallery/during/006.png" alt="Random Shooter Signature"></a>
+                                 </div>
+                                 
+                                 <br>
+                                 <div class="pure-u-1-4">
+                                    <a class="fancybox" rel="during01" href="images/gallery/during/007.png"><img class="pure-img-responsive" src="images/gallery/during/007.png" alt="Pokemon Diamond Signature"></a>
+                                 </div>
+								 <div class="pure-u-1-4">
+                                    <a class="fancybox" rel="during01" href="images/gallery/during/008.png"><img class="pure-img-responsive" src="images/gallery/during/008.png" alt="Random Swordman Signature"></a>
+                                 </div>
+								 <div class="pure-u-1-4">
+                                    <a class="fancybox" rel="during01" href="images/gallery/during/009.png"><img class="pure-img-responsive" src="images/gallery/during/009.png" alt="Free .XCF File with Render"></a>
+                                 </div>
+                            </div>
+                            
+                    <h2 class="content-subhead">After GFXMeetUp</h2>
+                        <div class="bannerTextCentralized">
+                        	<img class="pure-img-responsive bannerTextCentralized" src="images/freelance/rentoray_banner.png" alt="Rentoray Banner">
+                            <p>Despite shutting down GFXMeetUp, I still continue to learn and make more (and better) digital arts.</p>
+                            <div class="pure-u-1-4">
+								<a class="fancybox" rel="after01" href="images/gallery/after/001.png"><img class="pure-img-responsive" src="images/gallery/after/001.png" alt="Random Flower Woman Signature"></a>
+                            </div>
+                            <div class="pure-u-1-4">
+								<a class="fancybox" rel="after01" href="images/gallery/after/002.png"><img class="pure-img-responsive" src="images/gallery/after/002.png" alt="Random Pink Girl Signature"></a>
+                            </div>
+                            <div class="pure-u-1-4">
+								<a class="fancybox" rel="after01" href="images/gallery/after/003.png"><img class="pure-img-responsive" src="images/gallery/after/003.png" alt="Random Mysterious Girl Signature"></a>
+                            </div>
+                            
+                            <br>
+                            <div class="pure-u-1-4">
+								<a class="fancybox" rel="after01" href="images/gallery/after/004.png"><img class="pure-img-responsive" src="images/gallery/after/004.png" alt="welsknightgaming's Banner"></a>
+                            </div>
+                            <div class="pure-u-1-4">
+								<a class="fancybox" rel="after01" href="images/gallery/after/005.png"><img class="pure-img-responsive" src="images/gallery/after/005.png" alt="PokeCommunity Halloween Signature Contest 2015"></a>
+                            </div>
+                            <div class="pure-u-1-4">
+								<a class="fancybox" rel="after01" href="images/gallery/after/006.png"><img class="pure-img-responsive" src="images/gallery/after/006.png" alt="Random Music Girl Signature"></a>
+                            </div>
+                        </div>
+					</div>
+					<hr><div id="footerParagraph">Copyright 2016 Bernard's Portfolio<br><a href="mailto:lee_wei_kwan_bernard@connect.ite.edu.sg">[Contact Me]</a> <a href="#footerParagraph" onclick="swal({ html: true, title: 'Sweet! Thank You!', text: '1<ins>JTKing</ins>dNGmCfbP8HCbhenoxRQuy8tqZvs', imageUrl: 'images/bitcoin_qr.png' });">[Tip Me Bitcoin!]</a></div>
+				</div>
+            </div>
+		</div>
+		<script src="js/ui.js"></script> <!-- Menu needed this .js file to be responsive -->
+		
+		<div class="footnote">Purpose here is to showcase Bernard's Web Development Skills. Please note that most of the images here does not belong to him.</div>
+	</body>
+    <!-- Done by Bernard, CW1601C -->
+</html>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Freelance | Bernard's Portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/pure.css">
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		
+		<script src="js/jquery-1.10.2.js"></script>
+		<script src="js/jquery-ui.js"></script>
+        
+        <!-- SweetAlert Function -->
+        <script src="js/sweetalert.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+        
+		<script>
+		$(function() {
+			var icons = {
+				header: "iconClosed",
+				activeHeader: "iconOpen"
+			};
+			$( "#accordion" ).accordion({
+				icons: icons, collapsible: true, active: false, heightStyle: "content"
+			});
+		});
+		</script>
+		
+		<!-- CSS conditional code -->
+		<!--[if lte IE 8]>
+			<link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+		<![endif]-->
+		<!--[if gt IE 8]><!-->
+			<link rel="stylesheet" href="css/layouts/side-menu.css">
+		<!--<![endif]-->
+	</head>
+	
+	<body>
+		<div id="layout">
+			<!-- Menu toggle -->
+			<a href="#menu" id="menuLink" class="menu-link">
+				<span></span>
+			</a>
+
+			<div id="menu">
+				<div class="pure-menu">
+					<a class="pure-menu-heading">Menu</a>
+
+					<ul class="pure-menu-list">
+						<li class="pure-menu-item"><a href="index.html" class="pure-menu-link"><i class="fa fa-home"></i> Home</a></li>
+						<li class="pure-menu-item"><a href="education.html" class="pure-menu-link"><i class="fa fa-book"></i> Education</a></li>
+						<li class="pure-menu-item"><a href="freelance.html" class="pure-menu-link"><i class="fa fa-pencil-square-o"></i> Freelance</a></li>
+                        <li class="pure-menu-item"><a href="gallery.html" class="pure-menu-link">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-picture-o"></i> Gallery</a></li>
+						<li class="pure-menu-item"><a href="gaming.html" class="pure-menu-link"><i class="fa fa-headphones"></i> Gaming</a></li>
+						<li class="pure-menu-item"><a href="bitcoin.html" class="pure-menu-link"><i class="fa fa-btc"></i> Support Bitcoin</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="main">
+				<div class="header">
+					<h1 class="animated lightSpeedIn">I'm a freelancer and novice web developer!</h1>
+				</div>
+				
+				<br><div class='bannerTextCentralized'>
+                    <img class="pure-img-responsive animated fadeInLeft bannerBorder" src="images/banners/freelance.jpg" alt="BitRevenues Banner">
+				</div>
+
+				<div class="content">
+					<div id="accordion">
+						<h2 class="content-subhead">As a digital artist</h2>
+							<div>
+                            	<img class="pure-img-responsive bannerTextCentralized" src="images/freelance/gimpice.png" alt="GIMPIce Digital Graphic">
+								<p>I learnt making digital arts when I was primary six mainly because I would like to make virtual currency for a game that I played. Many experienced users of the gaming forums recommended me GIMP over Photoshop because the latter is more expensive. The first few digital arts I created were simply renders pasted on gardient backgrounds.</p>
+                                <p>Eventually (despite the lack of experience on digital arts) <mark>I opened a digital graphic forums on the Internet, GFXMeetUp.</mark> During which, I learnt techniques to create better digital graphics from my (strangly) more experienced members. <mark>It was the second most successful website I opened.</mark> However, due to the fact that I was addicited to gaming, I shutted down the forums a few months later.</p>
+                                <p>Yet I am currently continuing to learn new techniques to create new types of images. I also took part in a few online contests before. <mark>The best achievement for me would be being the first runner up for the "Halloween" contest of the forums "PokeCommunity" in 2015.</mark></p>
+								<img class="pure-img-responsive bannerTextCentralized" src="images/freelance/spooky_halloween.png" alt="Spooky Halloween Tag">
+                                <br><a href="gallery.html"><p class="bannerTextCentralized" style="border: 1px solid;"><small><em><strong>Click here to take a look at my gallery!</strong></em></small></p></a>
+							</div>
+							
+                        <h2 class="content-subhead">As a freelancer</h2>
+                        	<div>
+                            	<p>I started freelancing in 2013 so as to have enough virutal currency (ForumPromotion Points) to buy a top level domain name. That was when I visited a lot of forums and blogs to make "fake" posts and comments. After a few months, <mark>I managed to buy a .com domain for my Pokemon encyclopedia, "Rentoray".</mark> I coded the site with HTML and simple PHP that I learnt by myself online - more on this can be found in the next section.</p>
+								<img class="pure-img-responsive bannerTextCentralized" src="images/freelance/rentoray_banner.png" alt="Rentoray Banner">
+                                <p>I joined Bitcointalk in August 2013. I made a few virtual posts and left the community. I came back in late 2014 and found out that there is something online called signature campaign. It is a contract with online business to make posts on Bitcointalk wearing signature that would promote that online business. For my first contract, I made about 4 USD worth of Bitcoin every week. As my rank went up, I made about 10 USD worth of Bitcoin weekly. I came out of contract with the company roughly six months later and joined serveral other one-month campaigns. <mark>I made about 50 USD worth of Bitcoin per month form just posting on online forums.</mark> I signed up for BitX campaign in late 2015 and I am still with them now. <mark><strong>Today, I am earning about 10 USD worth of Bitcoin weekly from just posting.</strong></mark> The earnings dropped from ~50 USD to ~40 USD worth of Bitcoin per month because I am now focusing on my online business - "BitReveues".</p>
+                            </div>
+							
+                        <h2 class="content-subhead">As a web developer</h2>
+                        	<div>
+								<img class="pure-img-responsive bannerTextCentralized" src="images/freelance/webdeveloper.png" alt="Milkacrea 2014 Screenshot">
+                            	<p>I wanted to create my own online browser based RPG game similar to other's Pokemon fan made games. I was told by experienced developers that I need to learn HTML, CSS, Javascript, PHP and MySQL before I could create such game. And so I went on to learn HTML on W3Schools when I was primary six. I stopped half way when I started GFXMeetup.</p>
+                                
+                                <p>I started learning HTML again when I was secondary one and completed it. Then I tried learning CSS and JavaScript. I learnt part of CSS and JavaScript and skipped to PHP. However I did not complete PHP on W3Schools on my first try. I stopped for about a year before I decided to give it a try again. I managed to learn basic PHP and Advanced PHP when I was secondary two.</p>
+                                <p>Equipped with basic HTML, CSS, JavaScript and PHP knowledge, and knowing that I do not have the skills to create a RPG yet, <mark>I created an encyclopedia for Pokemon, named in Rentoray.</mark> Bought a top level domain name for it (.com) using the virtual currency I earned from freelancing. I stopped and shut down the website after I am addicted to gaming (again).</p>
+								<img class="pure-img-responsive bannerTextCentralized" src="images/freelance/rentoray_screenshot.png" alt="Rentoray Screenshot">
+                                <p>Determined to create my own browser based RPG game, I read open source code on various web applications and learnt more about PHP. To have a better understanding in working application, <mark>I created a plugin for the open source community software, MyBB, in 2014.</mark> After I became more familiar with PHP, I started developing my own online RPG, Milkacrea. <mark>On June 19 2014, I uploaded my game to the internet at Milkacrea.ml. It was somewhat successful with ten members registered a day after.</mark> However, the features that my game have is incomparable to other RPG games. I was forced to close the game two weeks later as an unknown person told me that my site is vulnerable to XSS and MySQL Injection - which was true after some researching and testing.</p>
+                                <p>After I learnt how to fix the problem and added some new features, I release the game as closed-beta (people need to obtain a key from me before they can access the game) at Milkacrea.ml in August 2014. <mark>I presented my game idea at Halogen NFTE Biz Camp 2014 in front of a panel of judges - including Singapore Google head. I received "Best Idea" award after the event.</mark> This motivated me to keep developing my RPG. However, the motivation dont last long. I shut down the game in October 2014 again.</p>
+								<img class="pure-img-responsive bannerTextCentralized" src="images/freelance/milkacrea_screenshot.png" alt="Milkacrea Screenshot">
+                                <p>Knowing that the amount of Bitcoin I earned on Bitcointalk will not help me much, I came up with a unique faucet idea - a faucet is a website that give out free Bitcoin and the owner earn profit from advertisements. My idea is to create a free lottery site that shares it revenues fairy using provably fair method. With my script up and running, I went on to purchase the domain <a href="http://bitrevenues.com/?ref=persoanlWebsite" target="_blank">BitRevenues.com</a> using the Bitcoin I earned online. <mark>My site was released in July 2015 under the name <a href="http://bitrevenues.com/?ref=personalWebsite" target="_blank">BitRevenues</a>.</mark> I have a good amount of people from Bitcointalk visiting my site. I also advertise on other websites and advertising networks and <mark>managed to get over 1000 members registered in three month</mark>. In December, I introduced an update to my site that require no registration to claim a free ticket. <mark>This update increases the traffic to my site by a lot as no registration is needed.</mark></p>
+                                <p>Today, I have yet to break profit. Good news is that my SEO finally works in February 2016, <mark>ranked in the top ten of Google, Bing and DuckDuckGo results for the keyword "free bitcoin lottery". Additionally, BitRevenues become <strong>top 5000 sites in Singapore and top 1 000 000 sites worldwide (Alexa).</strong></mark> I believe that if I continue to work on it, I will break profit one day.</p>
+								<img class="pure-img-responsive bannerTextCentralized" src="images/freelance/alexaRanking.png" alt="Alexa ranking - BitRevenues">
+                                <p><mark>Currently, I am equipped with basic HTML, CSS, JavaScript (very basic), PHP , MySQL and more recently (for this assignment) jQuery (a JavaScript library) skills. I am also a proud developer of a Bitcoin site and two MyBB plugins.</mark></p>
+                            </div>
+					</div>
+					<hr><div id="footerParagraph">Copyright 2016 Bernard's Portfolio<br><a href="mailto:lee_wei_kwan_bernard@connect.ite.edu.sg">[Contact Me]</a> <a href="#footerParagraph" onclick="swal({ html: true, title: 'Sweet! Thank You!', text: '1<ins>JTKing</ins>dNGmCfbP8HCbhenoxRQuy8tqZvs', imageUrl: 'images/bitcoin_qr.png' });">[Tip Me Bitcoin!]</a></div>
+				</div>
+			</div>
+		</div>
+		<script src="js/ui.js"></script>
+		
+		<div class="footnote">Purpose here is to showcase Bernard's Web Development Skills. Please note that most of the images here does not belong to him.</div>
+	</body>
+    <!-- Done by Bernard, CW1601C -->
+</html>

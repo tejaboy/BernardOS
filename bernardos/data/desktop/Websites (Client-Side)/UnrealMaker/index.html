@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Homepage | UnrealMaker</title>
+<meta name="description" content="UnrealMaker, the next generation game engine! Shaping the AAA games of tomorrow!">
+<meta name="keywords" content="UnrealMaker, game engine, free to use, game development, software, homepage">
+<link href="css/style01.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/remodal.min.js"></script>
+<script src="js/contactform.js"></script>
+<link rel="stylesheet" href="css/remodal.css">
+<link rel="stylesheet" href="css/remodal-default-theme.css">
+</head>
+
+<body>
+	<div id="top"></div>
+	<div id="container">
+        <div id="header">
+            <div id="logo">
+                <img src="images/logo/logo02_resized.png" alt="logo">
+            </div>
+            <div id="navigation">
+            	<nav>
+            	<ul>
+                	<!-- Due to float:right, the navigation need to be ordered in this new order -->
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="store.html">Asset Store</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="showcase.html">Showcase</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="slideshow">
+			<h1><mark>UnrealMaker</mark></h1>
+			<h2><mark>The next generation game engine! Shaping the AAA games of tomorrow!</mark></h2>
+        </div>
+        <div id="content">
+			<div id="content-padding">
+				<h1>What is UnrealMaker?</h1>
+				<p>UnrealMaker is a new modern game engine created by developers for developers. Come with a lot of features that only next-generation engine have. It is used to create AAA games like these ...</p>
+                <img src="images/slideshow03.jpg" alt="game showcase">
+				<h1>Why should I choose UnrealMaker?</h1>
+                <p>This game engine is packed with a lot of features that game developers and desingers dreamed of. One example is that this software support easy memory handling dynamic lighting system and up to one million particle per scene!</p>
+                <h1>What's more in UnrealMaker?</h1>
+                <p>Our company also have dedicated platforms for everything. Ranging from tutorials on game designing and developments to community forums to game asserts store</p>
+                
+              <table width="100%" border="0" cellspacing="5" cellpadding="0" class="labelTable">
+                  <tr>
+                      <td><a href="http://www.cplusplus.com/doc/tutorial/" target="_blank"><img src="images/home/tutorialProject.jpg" alt="tutorial"></a></td>
+                      <td><a href="store.html"><img src="images/home/assetPacks.jpg" alt="asset store"></a></td>
+                      <td><a href="http://www.gamedev.net/index" target="_blank"><img src="images/home/communityForums.jpg" alt="community forums"></a></td>
+                  </tr>
+                  <tr>
+                      <td>C++ Tutorial</td>
+                      <td>Asset Store</td>
+                      <td>Community Forums</td>
+                  </tr>
+              </table>
+                <p>Want to see something new being added? Feel free to email us at <a href="mailto:feedback@unrealmaker.com">feedback@unrealmaker.com</a>.</p>
+			</div>
+        </div>
+        <div id="footer">
+        <footer>
+			<p><a href="#top">[Back To Top]</a> | Copyright 2016, UnrealMaker | <a href="#contactUs">[Contact Us]</a></p>
+        </footer>
+        </div>
+	</div>
+    
+    <div class="remodal" data-remodal-id="contactUs">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<h1>Contact Us</h1>
+		<p>Contact us for whatever reason you can think of! Ranging from pricing to dinners!</p>
+        <form name="contact" action="mailto:general@unrealmaker.com" onSubmit="return validateForm()" id="contactForm">
+            <input type="text" name="name" placeholder="Name" class="inputText" required><br><br>
+            <input type="email" name="email" placeholder="Email" class="inputText" required><br><br>
+            <textarea name="text" form="contactForm" placeholder="Your text here." required></textarea>
+			<input type="submit" value="Submit" class="submit">
+        </form>
+	</div>
+	
+	<div class="footnote">Purpose here is to showcase Bernard's Web Development Skills. Please note that most of the images here does not belong to him.</div>
+</body>
+</html>
